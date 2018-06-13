@@ -1,0 +1,65 @@
+@font-face {
+	font-family: Roboto-Regular;
+  src: url("font/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+	font-family: Roboto-Light;
+  src: url("font/Roboto-Light.ttf");
+  font-weight: normal;
+}
+
+html, body, ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	background-color: #ebedf3!important;
+}
+
+body div.separator {
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	height: 3px;
+	background-color: grey;
+}
+
+body p {
+	font-family: 'Roboto-Light';
+}
+
+a {
+	text-decoration: none;
+	color: rgb(14, 75, 206);
+}
+
+body div h1, h2, h3, h4 {
+	font-family: 'Roboto-Regular';
+	color: rgb(29, 29, 29);
+}
+
+body div.languages ul li img {
+	width: 60px;
+	margin: 5px;
+}
+
+
+body div.languages div ul {
+	list-style-type: none;
+}
+
+div.contact div img.contact-img {
+	width: 50px;
+	height: 50px;
+}
+
+img.pic {
+	width: 150px;
+	height: 150px;
+}
